@@ -6,7 +6,6 @@ const HeaderBar = styled.header`
   color: #fff;
   display: flex;
   padding: 20px;
-  width: 100%;
 `;
 
 const Header = () => {

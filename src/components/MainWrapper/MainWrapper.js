@@ -4,6 +4,7 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
   padding: 10% 20px;
 `;
 
