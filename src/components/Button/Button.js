@@ -16,7 +16,9 @@ const Button = (props) => {
     setText("Button cliked");
   };
   return (
-    <StyledButton onClick={handleClick}>{text || props.text}</StyledButton>
+    <StyledButton onClick={handleClick}>
+      <span>{text || props.text}</span>
+    </StyledButton>
   );
 };
 
