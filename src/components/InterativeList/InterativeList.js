@@ -22,7 +22,7 @@ const InterativeList = () => {
     <>
       <Styled.ListWrapper>
         {listState.length > 0 ? (
-          <ul>
+          <ul data-testid="interative-list">
             {listState.map((item) => {
               return (
                 <li key={uuidv4()}>
@@ -32,13 +32,15 @@ const InterativeList = () => {
             })}
           </ul>
         ) : (
-          <div>No Items :(</div>
+          <div data-testid="no-items">No Items :(</div>
         )}
       </Styled.ListWrapper>
 
       <Styled.FormWrapper onSubmit={handleSubmit(onSubmit)}>
-        <input name="item" ref={register} />
-        <button type="submit">Add item</button>
+        <input data-testid="add-item-input" name="item" ref={register} />
+        <button data-testid="add-item-sbmt" type="submit">
+          Add item
+        </button>
       </Styled.FormWrapper>
     </>
   );

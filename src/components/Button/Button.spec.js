@@ -4,7 +4,7 @@ import "@testing-library/jest-dom/extend-expect";
 
 import Button from "./Button";
 
-describe("description", () => {
+describe("<Button />", () => {
   it("should return the props text", () => {
     // given
     const expectedResult = "TestButton";

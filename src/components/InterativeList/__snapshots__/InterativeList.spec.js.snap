@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InterativeList /> should add a new item: item with the inputValue 1`] = `
+<ul
+  data-testid="interative-list"
+>
+  <li>
+    react test
+     
+    <button>
+      X
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`<InterativeList /> should display no items: no items 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-AxjAm cqBkwT"
+    >
+      <div
+        data-testid="no-items"
+      >
+        No Items :(
+      </div>
+    </div>
+    <form
+      class="sc-AxirZ jobyAr"
+    >
+      <input
+        data-testid="add-item-input"
+        name="item"
+      />
+      <button
+        data-testid="add-item-sbmt"
+        type="submit"
+      >
+        Add item
+      </button>
+    </form>
+  </div>
+</body>
+`;
