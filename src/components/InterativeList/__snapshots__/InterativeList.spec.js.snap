@@ -6,10 +6,6 @@ exports[`<InterativeList /> should add a new item: item with the inputValue 1`] 
 >
   <li>
     react test
-     
-    <button>
-      X
-    </button>
   </li>
 </ul>
 `;

@@ -5,6 +5,10 @@ import "@testing-library/jest-dom/extend-expect";
 import InterativeList from "./InterativeList";
 
 describe("<InterativeList />", () => {
+  afterEach(() => {
+    jest.clearAllMocks();
+  });
+
   it("should display no items", () => {
     // when
     const { getByTestId, baseElement } = render(<InterativeList />);

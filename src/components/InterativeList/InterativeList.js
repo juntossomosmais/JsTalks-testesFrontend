@@ -13,22 +13,13 @@ const InterativeList = () => {
     setListState([...listState, data.item]);
   };
 
-  const removeItem = (itemToRemove) => {
-    const updatedList = listState.filter((item) => item !== itemToRemove);
-    setListState(updatedList);
-  };
-
   return (
     <>
       <Styled.ListWrapper>
         {listState.length > 0 ? (
           <ul data-testid="interative-list">
             {listState.map((item) => {
-              return (
-                <li key={uuidv4()}>
-                  {item} <button onClick={() => removeItem(item)}>X</button>
-                </li>
-              );
+              return <li key={uuidv4()}>{item}</li>;
             })}
           </ul>
         ) : (
