@@ -8,12 +8,12 @@ const Users = () => {
 
   const orderBy = (list, param) => {
     const compare = (a, b) => {
-      const nameA = a[param].toString().toUpperCase();
-      const nameB = b[param].toString().toUpperCase();
+      const propA = a[param].toString().toUpperCase();
+      const propB = b[param].toString().toUpperCase();
       let comparison = 0;
 
-      if (nameA > nameB) comparison = 1;
-      if (nameA < nameB) comparison = -1;
+      if (propA > propB) comparison = 1;
+      if (propA < propB) comparison = -1;
 
       return comparison;
     };
