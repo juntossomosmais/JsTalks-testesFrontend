@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Users /> should order items by email: user list - ordered by email 1`] = `
+<ul
+  data-testid="user-list"
+>
+  <li
+    data-testid="user-0"
+  >
+    Leanne Graham
+     
+    <small>
+      atest@april.biz
+    </small>
+  </li>
+  <li
+    data-testid="user-1"
+  >
+    Ervin Howell
+     
+    <small>
+      ztest@melissa.tv
+    </small>
+  </li>
+</ul>
+`;
+
+exports[`<Users /> should order items by name: user list - ordered by name 1`] = `
+<ul
+  data-testid="user-list"
+>
+  <li
+    data-testid="user-0"
+  >
+    Ervin Howell
+     
+    <small>
+      ztest@melissa.tv
+    </small>
+  </li>
+  <li
+    data-testid="user-1"
+  >
+    Leanne Graham
+     
+    <small>
+      atest@april.biz
+    </small>
+  </li>
+</ul>
+`;
+
+exports[`<Users /> should return the list of users: user list 1`] = `
+<ul
+  data-testid="user-list"
+>
+  <li
+    data-testid="user-0"
+  >
+    Leanne Graham
+     
+    <small>
+      atest@april.biz
+    </small>
+  </li>
+  <li
+    data-testid="user-1"
+  >
+    Ervin Howell
+     
+    <small>
+      ztest@melissa.tv
+    </small>
+  </li>
+</ul>
+`;

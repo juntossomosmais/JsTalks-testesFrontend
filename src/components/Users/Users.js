@@ -48,8 +48,8 @@ const Users = () => {
         </Styled.Button>
       </Styled.ListActions>
       <ul data-testid="user-list">
-        {usersState.map((user) => (
-          <li key={user.id}>
+        {usersState.map((user, index) => (
+          <li data-testid={`user-${index}`} key={user.id}>
             {user.name} <small>{user.email}</small>
           </li>
         ))}
