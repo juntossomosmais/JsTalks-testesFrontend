@@ -1,7 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import { Button, Header, MainWrapper, InterativeList } from "./components";
+import {
+  Button,
+  Header,
+  MainWrapper,
+  InterativeList,
+  Users,
+} from "./components";
 
 function App() {
   return (
@@ -12,6 +18,7 @@ function App() {
           <Switch>
             <Route exact path="/" render={() => <Button text="Click" />} />
             <Route path="/example-2" component={InterativeList} />
+            <Route path="/example-3" component={Users} />
           </Switch>
         </Router>
       </MainWrapper>

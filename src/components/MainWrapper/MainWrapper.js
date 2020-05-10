@@ -5,7 +5,7 @@ const Wrapper = styled.div`
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  padding: 10% 20px;
+  padding: 5% 20px;
 `;
 
 const MainWrapper = ({ children }) => {
