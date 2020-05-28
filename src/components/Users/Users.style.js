@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const ListWrapper = styled.div`
   display: flex;
@@ -24,14 +24,14 @@ export const ListWrapper = styled.div`
       }
     }
   }
-`;
+`
 
 export const ListActions = styled.div`
   display: flex;
   justify-content: flex-end;
   margin-bottom: 30px;
   width: 100%;
-`;
+`
 
 export const Button = styled.button`
   background: #34495e;
@@ -40,4 +40,9 @@ export const Button = styled.button`
   color: #fff;
   padding: 8px 12px;
   outline: none;
-`;
+  margin: 0 10px;
+
+  &:last-of-type {
+    margin: 0;
+  }
+`
