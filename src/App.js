@@ -16,7 +16,11 @@ function App() {
       <MainWrapper>
         <Router>
           <Switch>
-            <Route exact path="/" render={() => <Button text="Click" />} />
+            <Route
+              exact
+              path="/example-1"
+              render={() => <Button text="Click" />}
+            />
             <Route path="/example-2" component={InterativeList} />
             <Route path="/example-3" component={Users} />
           </Switch>
